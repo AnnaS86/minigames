@@ -1,12 +1,12 @@
 {
-  "devDependencies": {
-    "@typescript-eslint/eslint-plugin": "^8.70.0",
-    "@typescript-eslint/parser": "^8.70.0",
-    "eslint": "^10.11.0",
-    "eslint-plugin-unicorn": "^76.0.0"
-  },
+  "name": "minigames",
+  "version": "1.0.0",
+  "private": true,
   "scripts": {
-    "lint": "eslint .",
-    "lint:fix": "eslint . --fix"
+    "dev": "vite",
+    "build": "vite build"
+  },
+  "devDependencies": {
+    "vite": "^8.3.0"
   }
 }
